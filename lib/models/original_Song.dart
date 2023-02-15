@@ -15,12 +15,11 @@ class Song {
   String? title2;
   String? tags;
   String? slideseq;
-  String? rating;
-  // bool? chordsavailable;
-  String? chordsavailable;
-  String? usagecount;
-  int? subcat;
-  // String? subcat;
+  int? rating;
+  bool? chordsavailable;
+  int? usagecount;
+  // int? subcat;
+  String? subcat;
 
   Song({
     this.id,

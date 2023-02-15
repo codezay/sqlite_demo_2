@@ -46,3 +46,4 @@ app.*.map.json
 #custom
 /assets/chords.db
 /assets/songs.db
+/assets/verse_view.db

@@ -65,6 +65,7 @@ flutter:
   assets:
     - assets/songs.db
     - assets/chords.db
+    - assets/verse_view.db
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

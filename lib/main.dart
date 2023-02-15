@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sqlite_demo_2/pages/song_list.dart';
+// import 'package:sqlite_demo_2/pages/song_list.dart';
+import 'package:sqlite_demo_2/pages/verse_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SongList(),
+      // home: const SongList(),
+      home: const VerseList(),
     );
   }
 }
