@@ -45,6 +45,29 @@ class Song {
     this.subcat,
   });
 
+  Song.fromMap(Map<String, dynamic> map) {
+    id = map['id'];
+    name = map['name'];
+    cat = map['cat'];
+    font = map['font'];
+    font2 = map['font2'];
+    timestamp = map['timestamp'];
+    yvideo = map['yvideo'];
+    bkgndfname = map['bkgndfname'];
+    key = map['key'];
+    copy = map['copy'];
+    notes = map['notes'];
+    lyrics = map['lyrics'];
+    lyrics2 = map['lyrics2'];
+    title2 = map['title2'];
+    tags = map['tags'];
+    slideseq = map['slideseq'];
+    rating = map['rating'];
+    chordsavailable = map['chordsavailable'];
+    usagecount = map['usagecount'];
+    subcat = map['subcat'];
+  }
+
   Map<String, dynamic> toMap() {
     return {
       'id': id,
@@ -95,26 +118,4 @@ class Song {
   //   );
   // }
 
-  Song.fromMap(Map<String, dynamic> map) {
-    id = map['id'];
-    name = map['name'];
-    cat = map['cat'];
-    font = map['font'];
-    font2 = map['font2'];
-    timestamp = map['timestamp'];
-    yvideo = map['yvideo'];
-    bkgndfname = map['bkgndfname'];
-    key = map['key'];
-    copy = map['copy'];
-    notes = map['notes'];
-    lyrics = map['lyrics'];
-    lyrics2 = map['lyrics2'];
-    title2 = map['title2'];
-    tags = map['tags'];
-    slideseq = map['slideseq'];
-    rating = map['rating'];
-    chordsavailable = map['chordsavailable'];
-    usagecount = map['usagecount'];
-    subcat = map['subcat'];
-  }
 }
